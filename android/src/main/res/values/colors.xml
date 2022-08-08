@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="drumeo_blue">#0b76db</color>
+    <color name="window_bg">#00101D</color>
     <color name="white">#ffffff</color>
     <color name="dark">#00101D</color>
     <color name="light">#F7F9FC</color>
