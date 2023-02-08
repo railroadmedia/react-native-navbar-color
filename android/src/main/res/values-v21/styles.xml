@@ -6,7 +6,7 @@
         <item name="android:windowDisablePreview">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
-        <item name="android:windowBackground">@color/drumeo_blue</item>
+        <item name="android:windowBackground">@color/light</item>
         <item name="android:navigationBarColor">@color/light</item>
         <item name="android:windowLightNavigationBar">true</item>
 
@@ -17,7 +17,7 @@
         <item name="android:windowDisablePreview">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
-        <item name="android:windowBackground">@color/drumeo_blue</item>
+        <item name="android:windowBackground">@color/dark</item>
         <item name="android:navigationBarColor">@color/dark</item>
         <item name="android:windowLightNavigationBar">true</item>
 
