@@ -10,5 +10,5 @@ type NavigationBar = {
 };
 
 declare module 'react-native-navbar-color' {
-  export const NavigationBar: NavigationBar;
+  export default NavigationBar;
 }
