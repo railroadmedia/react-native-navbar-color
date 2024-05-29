@@ -32,17 +32,19 @@ public class RNNavBarColorModule extends ReactContextBaseJavaModule {
         final int colorInt = Color.parseColor(color);
         final int theme;
         if(color.equals("#00101D")) {
-            theme=R.style.AppThemeDark;
+            theme=R.color.dark;
         } else {
-            theme=R.style.AppTheme;
+            theme=R.color.light;
         }
+       
         if(activity == null)
             return;
         activity.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                activity.setTheme(theme);
                 activity.getWindow().setNavigationBarColor(colorInt);
+                activity.getWindow().setStatusBarColor(colorInt);
+                activity.getWindow().setBackgroundDrawableResource(theme);
             }
         });
     }
